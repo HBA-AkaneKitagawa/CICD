@@ -67,5 +67,6 @@ export class CdkWorkshopKitagawaStack extends Stack {
     });
     // WebServer からのアクセスを許可
     dbServer.connections.allowDefaultPortFrom(webServer100);
+    //git更新テスト
   }
 }
